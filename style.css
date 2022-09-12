@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    background-color:rgb(62, 118, 162);
+    width: 400px;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style:none;
+    font-size: 30; 
+    padding: 33px 0; 
+    font-weight:bold;    
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+} 
+
+.main{
+    background-color:aquamarine;
+    width: 90vw;
+}
+
+
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color:bisque;
+    height: 60vh;
+    width: 80vw;
+    margin:144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.name{
+    font-size:50px;
+    margin-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.hello{
+    font-size: 25px;
+    margin-left: 25px;
+}
+.about{
+    font-size:20px;
+    margin-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.buttons{
+    margin-top: 22px;
+    margin-left: 25px;
+    
+}
+.buttons button{
+    padding: 5px 12px;
+    border-radius:12px;
+    background-color:rgb(185, 185, 59);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin:0 3px;
+    cursor: pointer;
+
+}
+
+.buttons button:hover{
+    background-color: black;
+    color:rgb(185, 185, 59);
+
+}
+.devpic img{
+    height:60vh;
+}
+
+
+.contactform {
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.contactform h1{
+    
+
+}
